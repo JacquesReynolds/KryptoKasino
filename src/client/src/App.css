@@ -1,0 +1,169 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+}
+
+nav img {
+  width: 32px;
+  cursor: pointer;
+}
+
+nav ul {
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.bg-[#2952e3] {
+  background-color: #2952e3;
+}
+
+.py-2 {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.px-7 {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.rounded-full {
+  border-radius: 50%;
+}
+
+.hover:bg-[#2546bd] {
+  background-color: #2546bd;
+}
+
+.text-xl {
+  font-size: 24px;
+}
+
+.my-2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.text-lg {
+  font-size: 18px;
+}
+
+.shadow-2xl {
+  box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+}
+
+.fixed {
+  position: fixed;
+}
+
+.top-0 {
+  top: 0;
+}
+
+.-right-2 {
+  right: 2px;
+}
+
+.w-[70vw] {
+  width: 70vw;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.blue-glassmorphism {
+  background-color: #7FB3D5;
+  background-image: linear-gradient(19deg, #7FB3D5 0%, #E0E0E0 74%);
+}
+
+.animate-slide-in {
+  animation: slideIn 0.5s ease;
+}
+
+
+.community-cards {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: fit-content;
+}
+
+
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-20%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
